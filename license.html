@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="demo/demo.css" type="text/css" />
+    <link rel="stylesheet" href="./styleSlider.css" />
     <link
       rel="icon"
       type="image/png"
@@ -41,7 +42,7 @@
   <body class="page-services">
     <div id="wrapper">
       <!-- header begin -->
-     <header>
+      <header>
         <div class="info">
           <div class="container">
             <div class="row">
@@ -64,14 +65,12 @@
                     aria-label="Visit our Facebook page"
                     ><i class="fa fa-facebook"></i
                   ></a>
-        
-                
+
                   <a
                     href="https://wa.me/+923459115223"
                     aria-label="Contact us on WhatsApp"
                     ><i class="fa fa-whatsapp"></i
                   ></a>
-                  
                 </div>
                 <!-- social icons close -->
               </div>
@@ -134,12 +133,12 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 style="color: #000;">License</h1>
+              <h1 style="color: #000">License</h1>
               <div class="small-border-deco"><span></span></div>
               <ul class="crumb">
                 <li><a href="index.html">Home</a></li>
-                <li class="sep" style="color: #000;"></li>
-                <li style="color: #000;">License</li>
+                <li class="sep" style="color: #000"></li>
+                <li style="color: #000">License</li>
               </ul>
             </div>
           </div>
@@ -149,7 +148,10 @@
 
       <!-- content begin -->
       <div id="content" class="no-bottom">
-      
+        <div style="z-index: 40;">
+          <div class="slider" id="slider"></div>
+          <script src="./scriptSlider.js"></script>
+        </div>
         <!-- section hire us begin -->
         <section
           class="call-to-action bg-color dark mt80 pt20 pb20"
@@ -188,21 +190,22 @@
               /><br />
             </div>
 
-            <div class="col-md-4">
-      
-            </div>
+            <div class="col-md-4"></div>
 
             <div class="col-md-4">
               <h3>Contact Us</h3>
               <div class="widget widget-address">
                 <address>
                   <span
-                    >House No: 117, Street No:03, Sector K-4, Phase 3, Hayatabad Peshawar.
+                    >House No: 117, Street No:03, Sector K-4, Phase 3, Hayatabad
+                    Peshawar.
                   </span>
                   <span><strong>Phone:</strong>+92345-91152230</span>
                   <span
                     ><strong>Email:</strong
-                    ><a href="mailto:Jhagraconstruction@gmail.com">Jhagraconstruction@gmail.com</a></span
+                    ><a href="mailto:Jhagraconstruction@gmail.com"
+                      >Jhagraconstruction@gmail.com</a
+                    ></span
                   >
                   <!-- <span
                     ><strong>Web:</strong
@@ -227,12 +230,10 @@
                   <a href="https://www.facebook.com/share/18wZnW6pvU/"
                     ><i class="fa fa-facebook"></i
                   ></a>
-                  
-                  
+
                   <a href="https://wa.me/+923459115223"
                     ><i class="fa fa-whatsapp"></i
                   ></a>
-                 
                 </div>
               </div>
             </div>
@@ -297,6 +298,7 @@
 
     <!-- Javascript Files
     ================================================== -->
+    <script src="./js/scriptSlider.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jpreLoader.js"></script>
     <script src="js/bootstrap.min.js"></script>
