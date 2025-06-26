@@ -1,24 +1,12 @@
 const slides = [
+  //0
   {
     image: "../images/FBR.png",
     title: "FBR Registration",
     sty: "width:36rem;",
     para: "Registered with FBR",
   },
-  {
-    image: "../images/K.jpeg",
-    sty: "width:36rem;",
-
-    title: "KPKRRA Registration",
-    para: "Registered with KPKRRA.",
-  },
-  {
-    image: "../images/PEC.jpeg",
-    sty: "width:36rem;",
-
-    title: "PEC Registration",
-    para: "Registered with Pakistan Engineering Council.",
-  },
+  //1
   {
     image: "../images/PHE.png",
     sty: "width:36rem;",
@@ -26,13 +14,24 @@ const slides = [
     title: "PHE Enlisted",
     para: "Enlisted with Public Health Engineering.",
   },
+
+  //2
   {
-    image: "../images/Lcb.png",
+    image: "../images/K.jpeg",
     sty: "width:36rem;",
 
-    title: "LCB Registration",
-    para: "Registered with Local council Board.",
+    title: "KPRA Registration",
+    para: "Registered with KPRA.",
   },
+  // 3
+  {
+    image: "../images/PEC.jpeg",
+    sty: "width:36rem;",
+
+    title: "PEC Registration",
+    para: "Registered with Pakistan Engineering Council.",
+  },
+  // 4
   {
     image: "../images/C&W.jpeg",
     sty: "width:36rem;",
@@ -40,6 +39,17 @@ const slides = [
     title: "C & W Registration",
     para: "Registered with Local Communication & Work Department",
   },
+
+  //5
+
+  {
+    image: "../images/Lcb.png",
+    sty: "width:36rem;",
+
+    title: "LCB Registration",
+    para: "Registered with Local council Board.",
+  },
+  //6
   {
     image: "../images/lgrdd.jpeg",
     sty: "width:36rem;",
