@@ -34,6 +34,13 @@ const slides = [
     para: "Registered with Local council Board.",
   },
   {
+    image: "../images/C&W.jpeg",
+    sty: "width:36rem;",
+
+    title: "C & W Registration",
+    para: "Registered with Local Communication & Work Department",
+  },
+  {
     image: "../images/lgrdd.jpeg",
     sty: "width:36rem;",
 

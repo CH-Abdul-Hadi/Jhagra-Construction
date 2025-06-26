@@ -1370,11 +1370,11 @@ a:hover {
 }
 
 .de_light a {
-  color: #fff;
+  color: #555;
 }
 
 .de_light a:hover {
-  color: #fff;
+  color: #f7c51e;
 }
 
 .btn-line,
