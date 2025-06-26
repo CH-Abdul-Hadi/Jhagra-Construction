@@ -1370,11 +1370,11 @@ a:hover {
 }
 
 .de_light a {
-  color: #888;
+  color: #fff;
 }
 
 .de_light a:hover {
-  color: #555;
+  color: #fff;
 }
 
 .btn-line,
@@ -6494,7 +6494,7 @@ a.btn btn-custom:hover {
   .container {
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
   }
   .feature-box-image,
   .pricing-box {
@@ -6671,6 +6671,7 @@ a.btn btn-custom:hover {
   #ceo-image {
     width: 18rem;
     box-shadow: -1px 5px 10px 10px rgba(110, 224, 224, 0.5);
+    margin-left: 0;
   }
 
   #ceo-message {
